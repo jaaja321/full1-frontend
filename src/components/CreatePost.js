@@ -34,21 +34,21 @@ function CreatePost() {
           <label>Title: </label>
           <ErrorMessage name="title" component="span" />
           <Field
-            autocomplete="off"
+            autoComplete="off"
             name="title"
             placeholder="(Ex. Title...)"
           />
           <label>Post: </label>
           <ErrorMessage name="postText" component="span" />
           <Field
-            autocomplete="off"
+            autoComplete="off"
             name="postText"
             placeholder="(Ex. Post...)"
           />
           <label>Username: </label>
           <ErrorMessage name="username" component="span" />
           <Field
-            autocomplete="off"
+            autoComplete="off"
             name="username"
             placeholder="(Ex. John123...)"
           />
